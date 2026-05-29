@@ -2,12 +2,12 @@ Try it Out: https://response-spectrum-analysis-assignment-2026.streamlit.app/
 
 # Response Spectrum Analysis of Earthquake Ground Motion Records
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
-[![NumPy](https://img.shields.io/badge/NumPy-1.21%2B-orange)](https://numpy.org/)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.5%2B-green)](https://matplotlib.org/)
+[![Python](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-1.26.4%2B-orange)](https://numpy.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.10.8%2B-green)](https://matplotlib.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## 📋 Assignment Overview
+## Assignment Overview
 
 # Welcome to the Web Application version of Assignment 1: Response Spectrum Analysis of Earthquake Ground Motion Records
 
@@ -21,5 +21,7 @@ d. Generate and plot the Response Spectrum Curve based on the calculated values.
 
 The ground motion records were provided to us as .txt files. 
 ---
+
+***Try it Out: https://response-spectrum-analysis-assignment-2026.streamlit.app/***
 
 **Seismic Resistant Design of Masonry Structures**
