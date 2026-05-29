@@ -451,7 +451,7 @@ st.markdown("""
 
 <div class="footer">
     📈 Response Spectrum Analysis<br>
-    Created by <b>  <a href="https://www.linkedin.com/in/reyan-k-sapkota/" target="_blank">Reyan Kumar Sapkota</a></b> |Institute of Engineering, Pulchowk Campus<br>
+    Created by <b>  <a href="https://www.linkedin.com/in/reyan-k-sapkota/" target="_blank">Reyan Kumar Sapkota</a></b> | Institute of Engineering, Pulchowk Campus<br>
     © 2026 
 </div>
 """, unsafe_allow_html=True)
