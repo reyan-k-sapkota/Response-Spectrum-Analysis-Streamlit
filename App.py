@@ -321,7 +321,7 @@ if "Sd1" in st.session_state:
 st.divider()
 
 st.markdown("""
-<h2 style="color: #e2e8f0;"><strong>🌐5. Response Spectrum Curves</strong></h2>
+<h2 style="color: #e2e8f0;"><strong> 5. Response Spectrum Curves</strong></h2>
 """, unsafe_allow_html=True)
 
 #Generate RS plots
