@@ -1,5 +1,3 @@
-Try it Out: https://response-spectrum-analysis-assignment-2026.streamlit.app/ 
-
 # Response Spectrum Analysis of Earthquake Ground Motion Records
 
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/)
@@ -21,5 +19,5 @@ d. Generate and plot the Response Spectrum Curve based on the calculated values.
 
 The ground motion records were provided to us as .txt files. 
 ---
-# Deployed on Streamlit
+### Deployed on Streamlit
 ***Try it Out: https://response-spectrum-analysis-assignment-2026.streamlit.app/***
