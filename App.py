@@ -40,7 +40,7 @@ col1, col2 = st.columns(2)
 with col1:
     st.markdown("""
 **Submitted to:**  
-Kshitiz Charan Shrestha sir 
+Kshitiz Charan Shrestha sir
 Associate Professor  
 Department of Civil Engineering  
 Institute of Engineering, Pulchowk Campus.
