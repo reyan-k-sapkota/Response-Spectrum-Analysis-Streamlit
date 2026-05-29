@@ -21,7 +21,5 @@ d. Generate and plot the Response Spectrum Curve based on the calculated values.
 
 The ground motion records were provided to us as .txt files. 
 ---
-
+# Deployed on Streamlit
 ***Try it Out: https://response-spectrum-analysis-assignment-2026.streamlit.app/***
-
-**Seismic Resistant Design of Masonry Structures**
