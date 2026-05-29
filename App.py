@@ -114,7 +114,7 @@ if st.button("Display Earthquake Record Summary", use_container_width=True):
     c1, c2, c3, c4, c5 = st.columns(5)
     c1.metric("Magnitude (Mw)",       f"{eq_info['magnitude']}" if eq_info else "N/A")
     c2.metric("Total Data Points",    f"{len(accelerations):,}")
-    c3.metric("Duration",             f"{max(time):.3f} s")
+    c3.metric("Duration in given record",             f"{max(time):.3f} s")
     c4.metric("Max +ve Acceleration", f"{max_val:.6f} g", f"At time, t = {max_t:.3f} s")
     c5.metric("Max -ve Acceleration", f"{min_val:.6f} g", f"At time, t = {min_t:.3f} s")
 
