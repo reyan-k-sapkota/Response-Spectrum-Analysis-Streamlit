@@ -7,7 +7,7 @@
 
 ## Assignment Overview
 
-# Welcome to the Web Application version of Assignment 1: Response Spectrum Analysis of Earthquake Ground Motion Records
+# Web Application version of Assignment 1: Response Spectrum Analysis of Earthquake Ground Motion Records
 
 a. Generate Ground Acceleration Time History from the selected earthquake record.
 
