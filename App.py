@@ -39,12 +39,12 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.markdown("""
-**Submitted to:**  
-Kshitiz Charan Shrestha sir
-Associate Professor  
-Department of Civil Engineering  
+**Submitted to:**<<br>
+Kshitiz Charan Shrestha sir<br>
+Associate Professor<br>
+Department of Civil Engineering<br>
 Institute of Engineering, Pulchowk Campus.
-""")
+""", unsafe_allow_html=True)
 
 with col2:
     st.markdown("""
