@@ -30,6 +30,8 @@ st.markdown("""
 2. Conduct **Fast Fourier Transform (FFT)** analysis to identify dominant frequencies.
 3. Calculate values of **Spectral Displacements, Spectral Velocities, and Spectral Accelerations** for a range of natural periods by solving SDOF equation of motion using the **Newmark Method**.
 4. Generate and plot the **Response Spectrum Curve** based on the calculated values.
+            
+The Earthquake Record files (as .txt) were provided to us.
 """)
 
 st.space()
