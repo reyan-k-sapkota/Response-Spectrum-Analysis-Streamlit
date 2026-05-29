@@ -38,8 +38,8 @@ col1, col2 = st.columns(2)
 with col1:
     st.markdown("""
 **Submitted to:**  
-Kshitiz Charan Shrestha  
-Assoc. Professor  
+Kshitiz Charan Shrestha sir 
+Associate Professor  
 Department of Civil Engineering  
 Institute of Engineering, Pulchowk Campus.
 """)
@@ -325,7 +325,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 #Generate RS plots
-if st.button("Generate Response Spectrum for Spectral Displacement", use_container_width=True):
+if st.button("Generate Response Spectrum for Displacement", use_container_width=True):
 
     with st.spinner("Generating RS Curve for Spectral Displacement vs Natural Time Periods..."):
         eq_name = eq_info["name"] if eq_info else selected_record
@@ -356,7 +356,7 @@ if "fig_sd_buf" in st.session_state:
 
 st.divider()
 
-if st.button("Generate Response Spectrum for Spectral Velocity", use_container_width=True):
+if st.button("Generate Response Spectrum for Velocity", use_container_width=True):
 
     with st.spinner("Generating RS curve for Spectral Acceleration vs Natural Time Periods..."):
         eq_name = eq_info["name"] if eq_info else selected_record
@@ -388,7 +388,7 @@ if "fig_sv_buf" in st.session_state:
 st.divider()
 
 
-if st.button("Generate Response Spectrum for Spectral Acceleration", use_container_width=True):
+if st.button("Generate Response Spectrum for Acceleration", use_container_width=True):
 
     with st.spinner("Generating RS curve for Spectral Acceleration vs Natural Time Periods..."):
         eq_name = eq_info["name"] if eq_info else selected_record
@@ -418,3 +418,40 @@ if "fig_sa_buf" in st.session_state:
     )
 
 st.divider()
+
+#TradeMmarks
+
+
+st.markdown("""
+<style>
+
+/* remove Streamlit bottom padding */
+.block-container {
+    padding-bottom: 0rem;
+}
+
+/* footer */
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 6px 0;
+    background: #0f1117;
+    border-top: 0.5px solid #2a2f3a;
+
+    text-align: center;
+    color: #9aa4b2;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+
+    z-index: 999;
+}
+</style>
+
+<div class="footer">
+    📈 Response Spectrum Analysis<br>
+    Created by <b>  <a href="https://www.linkedin.com/in/reyan-k-sapkota/" target="_blank">Reyan Kumar Sapkota</a></b> |Institute of Engineering, Pulchowk Campus<br>
+    © 2026 
+</div>
+""", unsafe_allow_html=True)
