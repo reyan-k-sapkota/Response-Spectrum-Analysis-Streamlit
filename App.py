@@ -6,7 +6,7 @@ import numpy as np
 from HelperFunctions import get_earthquake_info, acceleration_vs_time, fft, newmark_response, generate_RSA_SpectralValues
 
 st.set_page_config(
-    page_title="Response Spectrum Curve",
+    page_title="Response Spectrum Analysis",
     page_icon="📈",
     layout="wide"
 )
